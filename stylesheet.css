@@ -1,0 +1,328 @@
+
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+{
+     
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+body{width:100%;}
+img{max-width:100%;}
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+}
+/* ----------- Galaxy S3 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {
+body{width:100%;}
+img{max-width:100%;}
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: portrait) {
+body{width:100%;}
+img{max-width:100%;}
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: landscape) {
+
+}
+
+/* ----------- Galaxy S4 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+body{width:100%;}
+img{max-width:100%;}
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+
+}
+
+/* ----------- Galaxy S5 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+body{width:100%;}
+img{max-width:100%;}
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+body{width:100%;}
+img{max-width:100%;}
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+
+}
+marquee a{text-decoration:none;
+color:none;}
+marquee img{padding:4px;
+border:3px solid black;
+}
+
+#cover{
+	height:270px;
+	width:310px;
+	border:5px solid black;
+	padding:1px;
+	display:block;
+	margin:auto;
+}
+
+audio{display:block;
+margin:auto;
+padding:2px;}
+#contactone{
+	height:50px;
+	width:50px;
+	padding-right:30px;
+	padding-left:30px;
+}
+#contactone:hover{border:2px solid #DF01D7;
+padding:1.5px;}
+#contacttwo{
+	height:50px;
+	width:50px;
+	padding-left:30px;
+	padding-right:30px;
+	
+}
+#contacttwo:hover{border:2px solid #00FFFF;
+padding:1.8px;}
+#contactthree{
+	height:50px;
+	width:50px;
+	padding-left:30px;
+	padding-right:30px;
+}
+#contactthree:hover{border:2px solid #FF0000;
+padding:1.5px;}
+#two{
+	height:45px;
+width:72px;
+padding-right:10px;
+}
+#three{height:50px;
+width:100px;
+padding-left:10px;
+padding-right:20px;}
+#payment{background-color:#BDBDBD;
+display:block;
+margin:auto;}
+ol h1{font-size:1.8em;}
+ol li{font-size:1.2em;}
+.connect{background-color:#BDBDBD;
+text-align:left;
+width:100%;
+height:auto;}
+.about{
+	position:absolute;
+	top:1140px;
+	z-index:0;
+	
+}
+
+.about p{
+	font-size:1.2em;font-family:Comic Sans MS;color:black;
+	z-index:=-4;
+}
+
+#aboutus{
+	text-align:center;
+}
+
+#contact{
+	/*background-color:#FF0040;*/
+	text-align:center;
+	margin:auto;
+}
+
+#one{margin:auto;
+display:block;
+height:99px;width:620px;
+clear:left;
+}
+
+ul a:link{text-decoration:none;}
+ul a:hover{text-decoration:underline;
+color:black;
+}
+.item img{max-width:500px;}
+body{
+	background-image:url("http://panel.ccsbmx.com/wp-content/uploads/2014/07/White-Wood-Panel-Wallpaper.jpg");
+}
+
+#header{background-color:#FF0040;
+position:fixed;
+text-align:center;
+z-index:10;
+}
+
+hr{display:block;
+border-width:4px;
+background-color:black;
+color:black;}
+
+div ul{position:fixed;
+margin-right:2px;
+margin-left:455px;
+margin-top:0px;
+z-index:3;}
+ol li{font-size:1.6em;
+font-weight:bold;font-family:arial black;}
+#header li {
+	/*Add your CSS here!*/
+	display:inline;
+	padding:5px 5px 5px 5px;
+	border: 2px solid #000000;
+	font-family:  Tahoma, sans-serif;
+	font-size:2em;
+	color: #ffffff;
+	border-radius: 10px;
+	background-color: #cc0323;
+}

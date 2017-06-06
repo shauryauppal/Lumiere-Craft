@@ -1,0 +1,19 @@
+<?php
+include 'db.php';
+$name = $_POST['name'];
+$email = $_POST['emailid'];
+$address = $_POST['address'];
+$phone = $_POST['phone'];
+$item = $_POST['item'];
+$comment=$_POST['comment'];
+
+$sql = "INSERT INTO `contact` (`name`, `emailid`, `address`, `phonenumber`, `itemname`, `comment`) VALUES ('$name','$email','$address','$phone','$item','$comment')";
+
+if (!mysql_query($sql,$conn)) 
+	die('Error: ' . mysql_error());
+
+echo "1 record added";
+
+mysql_close($conn);
+
+?>

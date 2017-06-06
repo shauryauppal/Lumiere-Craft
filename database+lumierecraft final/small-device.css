@@ -1,0 +1,17 @@
+
+@media screen and (min-width : 750px) {
+#content{float:left;width:60%;}
+#sidebar{float:right;width:35%}
+} 
+ 
+@media screen and (min-width : 481px) and (max-width : 749px) {
+#content{width:95%;}
+#sidebar{width:95%;}    
+}
+
+img {
+    max-width: 100%;
+}
+iframe, object, embed{
+width: 100%;
+}
