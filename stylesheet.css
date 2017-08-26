@@ -283,8 +283,9 @@ height:auto;}
 }
 
 #one{margin:auto;
+image="LOGO.png";
 display:block;
-height:99px;width:620px;
+height:300px;width:620px;
 clear:left;
 }
 
@@ -294,7 +295,7 @@ color:black;
 }
 .item img{max-width:500px;}
 body{
-	background-image:url("http://panel.ccsbmx.com/wp-content/uploads/2014/07/White-Wood-Panel-Wallpaper.jpg");
+	background-image:url("http://www.photos-public-domain.com/wp-content/uploads/2012/10/light-blue-fur-texture.jpg");
 }
 
 #header{background-color:#FF0040;
